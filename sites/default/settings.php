@@ -795,9 +795,9 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_48VCYPkn-wF2aQjmewyadXSF4I8J3jOb8zj4BWc-IxaH4XfCBpmC2cteTwWHqMMySjIDEGlfaQ/sync';
-$settings['cache']['default'] = 'cache.backend.memcache';
-$settings['memcache']['servers'] = ['127.0.0.1:11211' => 'default'];
-$settings['memcache']['bins'] = ['default' => 'default'];
-$settings['memcache']['key_prefix'] = 'wcvvdgjjkx';
+// $settings['cache']['default'] = 'cache.backend.memcache';
+// $settings['memcache']['servers'] = ['127.0.0.1:11211' => 'default'];
+// $settings['memcache']['bins'] = ['default' => 'default'];
+// $settings['memcache']['key_prefix'] = 'wcvvdgjjkx';
 $settings['trusted_host_patterns'] = array(
 '^drupal-173028-507589\.cloudwaysapps\.com$',);
