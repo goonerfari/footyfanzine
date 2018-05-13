@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'SeTWOBjLLhNabmS0XiuwjAU4JPVGtFFhyBgjOG86ix1vyirv6ytsg1cEnTLsmJAVTfhcz5qAjw';
 
 /**
  * Deployment identifier.
@@ -783,3 +783,21 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'wcvvdgjjkx',
+  'username' => 'wcvvdgjjkx',
+  'password' => 'HKrat4w8zG',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_48VCYPkn-wF2aQjmewyadXSF4I8J3jOb8zj4BWc-IxaH4XfCBpmC2cteTwWHqMMySjIDEGlfaQ/sync';
+$settings['cache']['default'] = 'cache.backend.memcache';
+$settings['memcache']['servers'] = ['127.0.0.1:11211' => 'default'];
+$settings['memcache']['bins'] = ['default' => 'default'];
+$settings['memcache']['key_prefix'] = 'wcvvdgjjkx';
+$settings['trusted_host_patterns'] = array(
+'^drupal-173028-507589\.cloudwaysapps\.com$',);
