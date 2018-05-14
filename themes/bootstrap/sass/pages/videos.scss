@@ -160,12 +160,12 @@ article.videos, .view-videos-page, .view-videos-view {
             line-height: 1;
             font-family: $font_bitter;
             font-size: 18px;
-            img {
-                min-height: 350px;
-                max-height: 350px;
-            }
-        }
 
+        }
+        img {
+            min-height: 350px !important;
+            max-height: 350px !important;
+        }
         button {
             font-size: 30px;
             background-color: transparent;
